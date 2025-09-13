@@ -57,4 +57,9 @@ $(document).ready(function() {
     
 }); 
 // jquery end
+//timeout for message 
+setTimeout(function() {
+    $('#alert-message').fadeOut('slow');
+}, 3000); // <-- time in milliseconds
+
 
