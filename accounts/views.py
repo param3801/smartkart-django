@@ -10,6 +10,9 @@ from django.template.loader import render_to_string
 from django.contrib.sites.shortcuts import get_current_site
 from django.contrib.auth.tokens import default_token_generator
 from django.core.mail import EmailMessage
+from carts.views import _cart_id
+from carts.models import Cart,CartItem
+import requests
 
 
 # Create your views here.
@@ -71,9 +74,65 @@ def login_view(request):
         user = authenticate(email = email, password=password)
         # If authentication is successful, log the user in and redirect to a dashboard or home page
         if user is not None: 
+            try:
+                cart = Cart.objects.get(cart_id = _cart_id(request))
+                # print("Enter into try")
+                is_cart_item_exists = CartItem.objects.filter(cart=cart).exists()
+                if is_cart_item_exists:
+                    # print(is_cart_item_exists)
+
+                    cart_item = CartItem.objects.filter(cart = cart)
+
+                    # print(cart_item)
+                    product_variation = []
+                    for item in cart_item:
+                        variation = item.variations.all()
+                        product_variation.append(list(variation))
+
+                    cart_item = CartItem.objects.filter( user = user)
+                    ex_var_list = []
+                    id = []
+
+                    for item in cart_item:
+                        existing_variation = item.variations.all()
+                        ex_var_list.append(list(existing_variation))
+                        id.append(item.id) 
+
+                    for pr in product_variation:
+                        if pr in ex_var_list:
+                            index = ex_var_list.index(pr)
+                            item_id = id[index]
+                            item = CartItem.objects.get(id=item_id)
+                            item.quantity+=1
+                            item.user = user
+                            item.save()
+
+                        else:
+                            cart_item = CartItem.objects.filter(cart = cart)
+                            for item in cart_item:
+                                item.user = user
+                                user.save()
+                       
+                    
+                   
+            except:
+                print("Enter into exception")
+                pass
+
             login(request, user)
             messages.success(request,"You are now logged in.")
-            return redirect('home')  # Replace 'dashboard' with your desired redirect URL
+            url = request.META.get('HTTP_REFERER')
+            try:
+                query = requests.utils.urlparse(url).query
+                params = dict(x.split('=') for x in query.split('&'))
+                if 'next' in params:
+                    next_page = params['next']
+                    return redirect(next_page)
+            except:
+                return redirect('home')  # Replace 'dashboard' with your desired redirect URL
+
+
+
         else:
         # If authentication fails, display an error message
             messages.error(request,"Invalid login credentials   Please try again.")
@@ -140,7 +199,7 @@ def forget_password(request):
 
 
 
-def resepassword_validate(request, uidb64, token):
+def resetpassword_validate(request, uidb64, token):
     try:
         uid = urlsafe_base64_decode(uidb64).decode()
         user = Account._default_manager.get(pk=uid)
