@@ -5,6 +5,10 @@ from .models import Order,OrderProduct
 import datetime
 
 
+def payment(request):
+  return render(request,'orders/payment.html')
+
+
 # Create your views here.
 def placeorder(request):
   current_user = request.user
@@ -15,22 +19,25 @@ def placeorder(request):
   
   grand_total = 0 
   tax = 0
+  total = 0
+  quantity = 0
 
   for cart_item in cart_items:
     total += (cart_item.product.price * cart_item.quantity)
     quantity += cart_item.quantity
   tax = (2*total)/100
-  grand_total = tax+max
+  grand_total = tax+total
 
   
-
   if request.method == 'POST':
-    form = OrderForm()
+
+    form = OrderForm(request.POST)
     if form.is_valid():
+      print("form is valid")
       data = Order()
       data.user = current_user
       data.first_name = form.cleaned_data['first_name']
-      data.last_name = form.cleaned_data['lasr_name']
+      data.last_name = form.cleaned_data['last_name']
       data.phone = form.cleaned_data['phone']
       data.email = form.cleaned_data['email']
       data.address_line_1= form.cleaned_data['address_line_1']
@@ -51,8 +58,20 @@ def placeorder(request):
       currnet_date = d.strftime('%Y%m%d')
       order_number = currnet_date + str(data.id )
       data.order_number = order_number
+
+
       data.save()
-      return redirect('checkout')
+
+      order = Order.objects.get(user = current_user, is_ordered=False, order_number=order_number )
+      context={
+        'order' : order,
+        'cart_items':cart_items,
+        'total': total,
+        'grand_total':grand_total
+      }
+
+      return render(request,'orders/payment.html',context)
+    return redirect('store')
   else:
       return redirect('checkout')
 

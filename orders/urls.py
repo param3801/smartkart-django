@@ -1,5 +1,7 @@
 from django.urls import path
 from orders import views
 urlpatterns = [
-    path('',views.placeorder,name="placeorder")
+    path('placeorder/',views.placeorder,name="placeorder"),
+    path('payment/',views.payment,name="payment")
+
 ]
