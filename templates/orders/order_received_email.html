@@ -1,0 +1,27 @@
+{% autoescape off %}
+{% comment %} order   emial html {% endcomment %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">     
+    <title>Order Received</title>
+</head>
+<body>
+    <h2>Thank you for your order!</h2>
+    <p>Hi {{ user.first_name }},</p>
+    <p>We have received your order and it is currently being processed. Here are the details of your order:</p>
+    <h3>Order Details:</h3>
+    <ul>
+        <li><strong>Order Number:</strong> {{ order.order_number }}</li>
+        <li><strong>Transaction ID:</strong> {{ order.payment.transaction_id }}</li>
+        <li><strong>Total Amount:</strong> ${{ order.order_total }}</li>
+        <li><strong>Tax:</strong> ${{ order.tax }}</li>
+    </ul>
+    <p>We will notify you once your order has been shipped. If you have any questions, feel free to contact our support team.</p>
+    <p>Thank you for shopping with us!</p>
+    <p>Best regards,<br>The GreatKart Team</p>
+</body>
+</html> 
+{% endautoescape %}
