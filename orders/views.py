@@ -1,4 +1,7 @@
-from django.shortcuts import render,redirect
+from django.shortcuts import render,redirect,get_object_or_404
+from django.http import JsonResponse
+from django.contrib.auth.decorators import login_required
+from accounts.models import Account
 from carts.models import Cart,CartItem, Product
 from orders.form import OrderForm
 from .models import Order,OrderProduct
@@ -62,25 +65,14 @@ def payment(request):
     send_email.send() 
 
     # # send order number and transaction id to send data on success page
-    # data = {
-    #   'order_number': order.order_number,
-    #   'transID': payment.Payment_id,
-    #   'status': payment.status,
-    #   'amount_paid': payment.amount_paid,
-    #   'payment_method': paymentorders:place_ordernt.Payment_method,
-    #   'first_name': order.first_name,
-    #   'email': order.email,
-    #   'phone': order.phone,
-    #   'address_line_1': order.address_line_1,
-    #   'address_line_2': order.address_line_2,
-    #   'country': order.country,
-    #   'state': order.state,
-    #   'city': order.city,
-    #   'order_total': order.order_total,
-    #   'tax': order.tax,
-    # }
-  #   return render(request,'orders/order_complete.html',data)
-  # else:
+    data = {
+      'order_number': order.order_number,
+      'transID': payment.Payment_id,
+     
+      
+    }
+    return JsonResponse(data)
+  else:
     return render(request,'orders/payment.html')
 
 
@@ -140,6 +132,7 @@ def placeorder(request):
 
       order = Order.objects.get(user = current_user, is_ordered=False, order_number=order_number )
       context={
+        'tax': tax,
         'order' : order,
         'cart_items':cart_items,
         'total': total,
@@ -168,6 +161,7 @@ def order_complete(request):
       payment = Payment.objects.get(Payment_id=transID)
 
       context = {
+        'tax': order.tax,
         'order': order,
         'ordered_products': ordered_products,
         'order_number': order.order_number,

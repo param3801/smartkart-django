@@ -2,77 +2,98 @@
 {% load static %}
 {% block content %}
 <section class="section-content padding-y bg">
-<div class="container"> 
-  {% comment %} oredr_completed sucess page with detail {% endcomment %}
-  <div class="row">
-  <aside class="col-lg-9">
-    <div class="card">
-      <div class="card-body">
-        <h4 class="card-title mb-4">Thank You. Your order has been received.</h4>
-        <p class="card-text mb-0">Order Number: <strong>{{ order_number }}</strong></p>
-        <p class="card-text mb-0">Transaction ID: <strong>{{ transID }}</strong></p>
-        <p class="card-text mb-0">Total Amount: <strong>${{ order_total }}</strong></p>
-        <p class="card-text mb-0">Tax: <strong>${{ tax }}</strong></p>
-        <p class="card-text mb-0">Date: <strong>${{ order.created_at }}</strong></p>
-        <p class="card-text mb-0">Status: <strong>${{ payment.status }}</strong></p>
+<div class="container">
 
-        {% comment %} add custumer detail {% endcomment %}
-        <hr>
-        <h4 class="card-title mb-4">Invoice-detail</h4>
-        <p class="card-text mb-0">Full Name: <strong>{{ order.full_name }}</strong></p>
-        <p class="card-text mb-0">Email: <strong>{{ order.email }}</strong></p>
-        <p class="card-text mb-0">Phone: <strong>{{ order.phone }}</strong></p>
-        <p class="card-text mb-0">Address: <strong>{{ order.address_line_1 }}, {{ order.address_line_2 }}, {{ order.city }}, {{ order.state }}, {{ order.country }}</strong></p>
-        <p class="card-text mb-0">Order Note: <strong>{{ order.order_note }}</strong></p>
-        <hr>
-        <h4 class="card-title mb-4">Order Details</h4>  
-        <table class="table table-borderless table-shopping-cart">
-          <thead class="text-muted">
-            <tr class="small text-uppercase">
-              <th scope="col">Product</th>
-              <th scope="col" width="120">Quantity</th>
-              <th scope="col" width="120">Price</th>
-              <th scope="col" class="text-right" width="200"> </th>
-            </tr>
-          </thead>
-          <tbody>
-            {% for item in order_products %}
-            <tr>
-              <td>    
-                {{item.product.product_name}}
-                <p class="text-muted small">
-					{% if item.variations.all %}
-					{% for i in cart_item.variations.all %}
+  <div class="container  my-5">
+    <div class="card shadow-sm">
+      <div class="card-body bg-light">
+        <h1 class="text-success"><i class="fas fa-check-circle"></i> Order Completed</h1>
+        <p class="lead">Thank you for your purchase! Your order has been successfully placed.</p>
+
+        <!-- Order Info -->
+        <div class="mt-4">
+          <h4>Order Information</h4>
+          <ul class="list-unstyled">
+            <li><strong>Order Number:</strong> #{{order_number }}</li>
+            <li><strong>Transaction ID:</strong> #{{ transID}}</li>
+
+            <li><strong>Order Date:</strong> {{order.created_at}}</li>
+            <li><strong>Status:</strong> <span class="badge badge-warning">{{payment.status }}</span></li>
+          </ul>
+        </div>
+
+        <!-- Customer Info -->
+        <div class="mt-4">
+          <h4>Customer Information</h4>
+          <ul class="list-unstyled">
+            <li><strong>Name:</strong> {{order.full_name}}</li>
+            <li><strong>Email:</strong> {{order.email}}</li>
+            <li><strong>Shipping Address:</strong><br>
+              {{order.address_line_1}},<br>
+              {{order.state}}, {{order.city}},<br>
+              {{order.country}}<br>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Order Summary -->
+        <div class="mt-4">
+          <h4>Order Summary</h4>
+          <div class="table-responsive">
+            <table class="table table-bordered">
+              <thead class="thead-light">
+                <tr>
+                  <th>Item</th>
+                  <th>Qty</th>
+                  <th>Price</th>
+                  <th>Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for item in ordered_products %}
+                <tr>
+                  <td>{{item.product.product_name}}
+                  	<p class="text-muted small">
+					{% if item.varition.all %}
+					{% for i in item.varition.all %}
 						{{ i.variation_category | capfirst}}: {{ i.variation_value |capfirst }} <br>
 					{% endfor %}
 					{% endif %}
-                          </p>
-                 
-
-              </td>
-              <td> {{ item.quantity }} </td>
-              <td> ${{ item.product_price }} </td>
-              <td class="text-right"> ${{ item.product_price|mul:item.quantity }} </td>
-            </tr>
-            {% endfor %}
-          </tbody>
-        </table>   
-        <hr>
-        <p class="card-text mb-0">Subtotal: <strong>${{ order.order_total|floatformat:2 }}</strong></p>
-        <p class="card-text mb-0">Tax: <strong>${{ order.tax|floatformat:2 }}</strong></p>    
-        <p class="card-text mb-0">Total: <strong>${{ order.order_total|add:order.tax|floatformat:2 }}</strong></p>
-        <hr>
-        <a href="{% url 'home' %}" class="btn btn-primary">Continue Shopping</a>  
+          </td>
+			
 
 
+                  <td>{{item.quantity}}</td>
+                  <td>${{item.product_price}}</td>
+                  <td>${{item.product_price}}</td>
+                </tr>
+                {% endfor %}
+                
+                <tr>
+                  <td colspan="3" class="text-right font-weight-bold">Total</td>
+                  <td class="font-weight-bold">${{payment.amount_paid}}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
 
+        <!-- Thank You Message -->
+        <div class="alert alert-info mt-4">
+         Thank you for shopping with us. We hope to see you again soon!
+        </div>
 
-
-
+        <!-- Continue Shopping Button -->
+        <a href="{% url "home" %}" class="btn btn-success mt-3">Continue Shopping</a>
       </div>
     </div>
-  </aside>
   </div>
-</div>
-</section>
+  </div>
+  </section>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+
+
 {% endblock content %}  

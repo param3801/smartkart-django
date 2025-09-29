@@ -170,7 +170,7 @@
   }
   var csrftoken = getCookie('csrftoken');
   orderID ="{{ order.order_number }}"; // Use the order number from the context
-
+  var Redirect_url = "{% url 'order_complete' %}"; // URL to your order complete view
   paypal.Buttons({
     createOrder: function(data, actions) {
       return actions.order.create({
@@ -203,8 +203,10 @@
 
           
         })
-          .then(response => response.json())
-          .then(data => console.log(data))
+          .then((response) => response.json())
+          .then((data) => {
+            window.location.href = Redirect_url+'?order_number='+data.order_number+'&payment_id='+data.transID;
+          });
 
         }
       });
