@@ -161,7 +161,6 @@ def order_complete(request):
       payment = Payment.objects.get(Payment_id=transID)
 
       context = {
-        'tax': order.tax,
         'order': order,
         'ordered_products': ordered_products,
         'order_number': order.order_number,
