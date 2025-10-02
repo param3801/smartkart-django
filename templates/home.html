@@ -42,6 +42,26 @@
 				<div class="price-wrap">
 					<span class="price">₹{{ product.price }}</span>
 				</div>
+
+				<!--showing stars-->
+				<div class="rating-stars">
+					<span>
+
+  <i class="{% if product.averageReview >= 1 %}fas fa-star{% elif product.averageReview >= 0.5 %}fas fa-star-half-alt{% else %}far fa-star{% endif %}"></i>
+  <i class="{% if product.averageReview >= 2 %}fas fa-star{% elif product.averageReview >= 1.5 %}fas fa-star-half-alt{% else %}far fa-star{% endif %}"></i>
+  <i class="{% if product.averageReview >= 3 %}fas fa-star{% elif product.averageReview >= 2.5 %}fas fa-star-half-alt{% else %}far fa-star{% endif %}"></i>
+  <i class="{% if product.averageReview >= 4 %}fas fa-star{% elif product.averageReview >= 3.5 %}fas fa-star-half-alt{% else %}far fa-star{% endif %}"></i>
+  <i class="{% if product.averageReview >= 5 %}fas fa-star{% elif product.averageReview >= 4.5 %}fas fa-star-half-alt{% else %}far fa-star{% endif %}"></i> 
+	<strong>{{ product.averageReview|floatformat:1 }}</strong> 
+	<span class="text-muted">({{ product.countReview }} reviews)</span>
+ 
+
+
+
+
+					</span>
+					</div>
+
 			</figcaption>
 		</div>
 	</div> <!-- col.// -->

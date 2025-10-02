@@ -9,11 +9,24 @@
 	<div class="row no-gutters">
 		<aside class="col-md-6">
 <article class="gallery-wrap"> 
-	<div class="img-big-wrap">
+	<div class="img-big-wrap mainImage">
+		<!-- produce gallery images in small size -->
+		
+		
 	   <a href="#"><img src={{ single_product.images.url }}></a>
 	</div> <!-- img-big-wrap.// -->
 	
 </article> <!-- gallery-wrap .end// -->
+<ul class="thumb">
+		<li>
+		<a href="{{ single_product.images.url}}" target="mainImage" class="item-thumb"> <img src="{{  single_product.images.url }}"></a>
+	</li>
+	<li>
+		{% for i in product_galleries %}
+		<a href="{{i.image.url}}" target="mainImage" class="item-thumb"> <img src="{{ i.image.url }}"></a>
+		{% endfor %}
+	</li>
+</ul>
 		</aside>
 		<main class="col-md-6 border-left">
 	<form action="{% url "add_cart" single_product.id %}" method="POST">
@@ -22,6 +35,25 @@
 <article class="content-body">
 
 <h2 class="title">{{ single_product.product_name }}</h2>
+ 
+<div class="rating-stars">
+					<span>
+
+  <i class="{% if single_product.averageReview >= 1 %}fas fa-star{% elif single_product.averageReview >= 0.5 %}fas fa-star-half-alt{% else %}far fa-star{% endif %}"></i>
+  <i class="{% if single_product.averageReview >= 2 %}fas fa-star{% elif single_product.averageReview >= 1.5 %}fas fa-star-half-alt{% else %}far fa-star{% endif %}"></i>
+  <i class="{% if single_product.averageReview >= 3 %}fas fa-star{% elif single_product.averageReview >= 2.5 %}fas fa-star-half-alt{% else %}far fa-star{% endif %}"></i>
+  <i class="{% if single_product.averageReview >= 4 %}fas fa-star{% elif single_product.averageReview >= 3.5 %}fas fa-star-half-alt{% else %}far fa-star{% endif %}"></i>
+  <i class="{% if single_product.averageReview >= 5 %}fas fa-star{% elif single_product.averageReview >= 4.5 %}fas fa-star-half-alt{% else %}far fa-star{% endif %}"></i> 
+	<strong>{{ single_product.averageReview|floatformat:1 }}</strong> 
+	<span class="text-muted">({{ single_product.countReview }} reviews)</span>
+ 
+
+
+
+
+					</span>
+					</div>
+					<br>
 
 <div class="mb-3"> 
   <var class="price h4">₹{{ single_product.price }}</var>
@@ -79,9 +111,13 @@
 {% comment %} review Rating form {% endcomment %}
 
 	<h3> Reviews Rating </h3> 
-	<form method="POST" action="{% url 'review_rating' single_product.id %}">
+
+
+
+	<form  class="shadow p-3" method="POST" action="{% url 'review_rating' single_product.id %}">
 		{% csrf_token %}
-		<h5>write your review</h5>
+		
+		<h5>Write your Review</h5>
 		<div>
 			<!--rating stars-->
 <label>Your Rating:</label>
@@ -127,7 +163,26 @@
 
 
 	<header class="section-heading">
-		<h3>Customer Reviews </h3>  
+		<h3>Customer Reviews </h3> 
+				<div class="rating-stars">
+					<span>
+
+  <i class="{% if single_product.averageReview >= 1 %}fas fa-star{% elif single_product.averageReview >= 0.5 %}fas fa-star-half-alt{% else %}far fa-star{% endif %}"></i>
+  <i class="{% if single_product.averageReview >= 2 %}fas fa-star{% elif single_product.averageReview >= 1.5 %}fas fa-star-half-alt{% else %}far fa-star{% endif %}"></i>
+  <i class="{% if single_product.averageReview >= 3 %}fas fa-star{% elif single_product.averageReview >= 2.5 %}fas fa-star-half-alt{% else %}far fa-star{% endif %}"></i>
+  <i class="{% if single_product.averageReview >= 4 %}fas fa-star{% elif single_product.averageReview >= 3.5 %}fas fa-star-half-alt{% else %}far fa-star{% endif %}"></i>
+  <i class="{% if single_product.averageReview >= 5 %}fas fa-star{% elif single_product.averageReview >= 4.5 %}fas fa-star-half-alt{% else %}far fa-star{% endif %}"></i>
+	<strong>{{ single_product.averageReview|floatformat:1 }}</strong> 
+	<span class="text-muted">({{ single_product.countReview }} reviews)</span>
+
+
+
+
+
+					</span>
+					</div>
+					<br>
+					<br>
 		
 	</header>
 

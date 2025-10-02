@@ -20,3 +20,17 @@
 	</div><!-- //container -->
 </footer>
 <!-- ========================= FOOTER END // ========================= -->
+
+<script src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
+<script>
+
+		$(document).ready(function(){
+				$('.thumb a').on('click', function(event){
+						event.preventDefault();
+						var newImage = $(this).attr('href');
+						$('.mainImage img').attr('src', newImage);
+				});
+		});
+</script>
+</body>
+</html>

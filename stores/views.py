@@ -10,6 +10,7 @@ from .forms import ReviewForm
 from django.shortcuts import redirect
 from django.contrib import messages
 from orders.models import OrderProduct
+from .models import ProductGallery
 
 
 # Create your views here.
@@ -48,18 +49,27 @@ def product_detail(request, category_slug, product_slug):
 
     except Exception as e:
         raise e
-    
-    try:
-        orderproduct = OrderProduct.objects.filter(user=request.user, product_id=single_product.id).exists()
-    except OrderProduct.DoesNotExist:
-        orderproduct = None
-    
+    if request.user.is_authenticated:
+        try:
+            orderproduct = OrderProduct.objects.filter(user=request.user, product_id=single_product.id).exists()
+        except OrderProduct.DoesNotExist:
+         orderproduct = None
+    else:
+      orderproduct = None
+      
     try:
         reviews = ReviewRating.objects.filter(product_id=single_product.id, status=True)
     except ReviewRating.DoesNotExist:
         review = None
 
+    try:
+       product_galleries = ProductGallery.objects.filter(product = single_product)
+    except ProductGallery.DoesNotExist:
+       product_galleries = None
+    print(product_galleries)
+
     context = {
+        'product_galleries': product_galleries,
         'reviews': reviews,
         'orderproduct': orderproduct,
         'in_cart': in_cart,

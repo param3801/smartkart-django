@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- ========================= SECTION CONTENT ========================= -->
+<section class="section-conten padding-y bg">
+
+<div class="container">
+	<div class="row">
+	<aside class="col-md-3">
+		<!--   SIDEBAR   -->
+		{% include "include/dashboard_sidebar.html" %}
+		<br>
+		<a class="btn btn-light btn-block" href="#"> <i class="fa fa-power-off"></i> <span class="text">Log out</span> </a> 
+		<!--   SIDEBAR .//END   -->
+	</aside>
+	<main class="col-md-9">
+		<article class="card">
+		<header class="card-header">
+			<strong class="d-inline-block mr-3">My Orders</strong>
+		
+		</header>
+		<div class="card-body">
+			<div class="row"> 
+				
+				<div class="col-md-12 text-right">
+          <img class="img-sm img-thumbnail " src="{{ userprofile.profile_picture.url }}" alt="User Profile Picture" style="width: 100px; height: 100px; border-radius: 50%;">
+          </div>
+					<div class="col-md-12">
+          <form method="POST" action="{% url "edit_profile" %} " enctype="multipart/form-data" >
+            {% csrf_token %}
+           
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">First Name</label>
+              <div class="col-sm-9">
+              {{ user_form.first_name }}  
+              </div>
+              </div>
+              <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Last Name</label>
+              <div class="col-sm-9">
+              {{ user_form.last_name }}    
+            </div>
+              </div>
+              <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Phone Number</label>
+              <div class="col-sm-9">
+              {{ user_form.phone_number }} 
+            </div>
+              </div>
+              <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Address Line 1</label>
+              <div class="col-sm-9">
+              {{ profile_form.address_line_1 }}
+              </div>
+              </div>
+              <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Address Line 2</label>
+              <div class="col-sm-9">
+              {{ profile_form.address_line_2 }}    
+              </div>  
+              </div>
+              <div class="form-group row">
+              <label class="col-sm-3 col-form-label">City</label>
+              <div class="col-sm-9">
+              {{ profile_form.city }}      
+              </div>
+              </div>
+              <div class="form-group  row">
+              <label class="col-sm-3 col-form-label">State</label>
+              <div class="col-sm-9">
+              {{ profile_form.state }}       
+              </div>
+              </div>
+              <div class="form-group row">      
+              <label class="col-sm-3 col-form-label">Country</label>
+              <div class="col-sm-9">
+              {{ profile_form.country }}   
+              </div>
+              </div>
+              <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Profile Picture</label>
+              <div class="col-sm-9">
+              {{ profile_form.profile_picture }}
+              </div>
+                </div>
+              <div class="form-group row">
+              <div class="col-sm-9 offset-sm-3">
+              <button type="submit" class="btn btn-primary">Update</button>
+              </div>
+              </div>
+             </form>
+
+ 
+ 
+
+
+				 </div>
+				
+				
+			</div> <!-- row.// -->
+		</div> <!-- card-body .// -->
+		</article> <!-- order-group.// --> 
+	</main>
+</div> <!-- row.// -->
+</div>
+
+
+</section>
+{% endblock %}
+<!-- ========================= SECTION CONTENT END// ========================= -->
+
+
+
+
+
