@@ -25,7 +25,7 @@ def add_cart(request, product_id):
                 key = item
                 value = request.POST[key]
                 try:
-                    variation = Varition.objects.get(   product=product,variation_category__iexact=key, variation_value__iexact=value)
+                    variation = Varition.objects.get(product=product,variation_category__iexact=key, variation_value__iexact=value)
                     product_variation.append(variation)
                 except:
                     variation = None   

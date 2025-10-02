@@ -68,10 +68,10 @@
 			<h6>Choose Color</h6>
 			<select name="color" class="form-control" required	> 
 				<option value="" disabled selected>Select Color</option>
-				{% for i in single_product.variation_set.colors %}
+				{% for i in single_product.varition_set.colors %}
 				<option value="{{ i.variation_value | lower}}">{{ i.variation_value | capfirst }}</option>
 				{% endfor %}
-				<option value="red">Red</option>
+				{% comment %} <option value="red">Red</option> {% endcomment %}
 			</select>
 		</div>
 	</div> <!-- row.// -->
@@ -80,18 +80,17 @@
 			<h6>Select Size</h6>
 		<select name="size" class="form-control" required>
 				<option value="" disabled selected>Select size</option>
-				{% for i in single_product.variation_set.sizes %}
+				{% for i in single_product.varition_set.sizes %}
 				<option value="{{ i.variation_value | lower }}">{{ i.variation_value | capfirst }}</option>
 				{% endfor %}	
-				<option value="small">Small</option>		
+				{% comment %} <option value="small">Small</option>		 {% endcomment %}
 		</select>
 		</div>
 	</div> <!-- row.// -->
 	<hr>
   {% if single_product.stock <= 0 %}
     <span class="badge badge-danger">Out of Stock</span>
-  {% elif in_cart %}
-		<a href="{% url "cart" %}" class="btn btn-success"> <span class="text">Go to cart</span> <i class="fas fa-shopping-cart"></i>  </a>
+
 	{% else %}
 	<button  type="submit" class="btn btn-primary"> <span class="text">Add to cart</span> <i class="fas fa-shopping-cart"></i>  </button>
 	{% endif %}

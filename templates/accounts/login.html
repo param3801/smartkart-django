@@ -2,7 +2,7 @@
 
 
 {% block content %}
-{% comment %} {% if request.GET.command=="verification" %}
+ {% if request.GET.command == 'verification' %}
     <div class="container mt-3">
         <div class="alert alert-success alert-dismissible fade show" role="alert">
           Your account has been registered successfully!,  Please check your email 
@@ -13,7 +13,7 @@
         </div>
     </div>
 
-{% else %} {% endcomment %}
+{% else %} 
 
 <!-- ========================= SECTION CONTENT ========================= -->
 <section class="section-conten padding-y" style="min-height:84vh">
@@ -52,5 +52,6 @@
 </section>
 <!-- ========================= SECTION CONTENT END// ========================= -->
 {% comment %} {% endif %} {% endcomment %}
+{% endif %}
 
 {% endblock content %}
