@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+ {% extends "base.html" %}
 
 {% load static %}
 
@@ -79,4 +79,135 @@
 
 </body>
 </html>
-{% endblock content %}
+{% endblock content %} 
+{% comment %} 
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<style>
+/* ================= HERO SECTION ================= */
+.hero-banner {
+    height: 420px;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.hero-banner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+/* ================= PRODUCT CARDS ================= */
+.product-card {
+    transition: all 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+}
+
+.product-card img {
+    height: 220px;
+    object-fit: contain;
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover img {
+    transform: scale(1.05);
+}
+
+.rating-stars i {
+    color: #f4c150;
+}
+</style>
+
+<!-- ========================= HERO SECTION ========================= -->
+<section class="py-4">
+  <div class="container">
+    <div class="hero-banner">
+      <img src="{% static 'images/banners/banner.jpg' %}" alt="Banner">
+
+      <div class="hero-overlay">
+        <h1 class="fw-bold display-5">Shop Smart, Live Better</h1>
+        <p class="lead">Discover trending products at unbeatable prices</p>
+        <a href="{% url 'store' %}" class="btn btn-primary btn-lg mt-2">
+          Shop Now
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ========================= HERO SECTION END ========================= -->
+
+<!-- ========================= PRODUCTS SECTION ========================= -->
+<section class="py-5 bg-light">
+  <div class="container">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h3 class="fw-bold">Popular Products</h3>
+      <a href="{% url 'store' %}" class="btn btn-outline-primary">
+        View All
+      </a>
+    </div>
+
+    <div class="row g-4">
+      {% for product in products %}
+      <div class="col-lg-3 col-md-4 col-sm-6">
+
+        <div class="card product-card h-100 border-0">
+          <a href="{{ product.get_url }}">
+            <img src="{{ product.images.url }}" class="card-img-top" alt="{{ product.product_name }}">
+          </a>
+
+          <div class="card-body text-center">
+            <h6 class="card-title mb-2">
+              <a href="{{ product.get_url }}" class="text-dark text-decoration-none">
+                {{ product.product_name }}
+              </a>
+            </h6>
+
+            <div class="fw-bold text-primary mb-2">
+              ₹{{ product.price }}
+            </div>
+
+            <!-- Rating -->
+            <div class="rating-stars small">
+              <i class="{% if product.averageReview >= 1 %}fas fa-star{% elif product.averageReview >= 0.5 %}fas fa-star-half-alt{% else %}far fa-star{% endif %}"></i>
+              <i class="{% if product.averageReview >= 2 %}fas fa-star{% elif product.averageReview >= 1.5 %}fas fa-star-half-alt{% else %}far fa-star{% endif %}"></i>
+              <i class="{% if product.averageReview >= 3 %}fas fa-star{% elif product.averageReview >= 2.5 %}fas fa-star-half-alt{% else %}far fa-star{% endif %}"></i>
+              <i class="{% if product.averageReview >= 4 %}fas fa-star{% elif product.averageReview >= 3.5 %}fas fa-star-half-alt{% else %}far fa-star{% endif %}"></i>
+              <i class="{% if product.averageReview >= 5 %}fas fa-star{% elif product.averageReview >= 4.5 %}fas fa-star-half-alt{% else %}far fa-star{% endif %}"></i>
+
+              <span class="text-muted ms-1">
+                {{ product.averageReview|floatformat:1 }} ({{ product.countReview }})
+              </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
+<!-- ========================= PRODUCTS SECTION END ========================= -->
+
+{% endblock content %} {% endcomment %}

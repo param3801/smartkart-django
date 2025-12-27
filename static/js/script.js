@@ -56,10 +56,32 @@ $(document).ready(function() {
 
     
 }); 
+
+
+setTimeout(function() {
+    const alerts = document.querySelectorAll('.alert-message');
+    alerts.forEach(function(alert) {
+        alert.style.transition = "opacity 0.6s ease";
+        alert.style.opacity = "0";
+        setTimeout(() => alert.remove(), 6000); // Remove after fade completes
+    });
+}, 3000);
+
 // jquery end
 //timeout for message 
-setTimeout(function() {
-    $('#alert-message').fadeOut('slow');
-}, 3000); // <-- time in milliseconds
+// setTimeout(function() {
+//     $('#alert-message').fadeOut('slow');
+// }, 3000); // <-- time in milliseconds
+
+
+// $(document).ready(function() {
+//     // Select by class to catch all messages
+//     setTimeout(function() {
+//         $(".alert-message").fadeTo(500, 0).slideUp(500, function(){
+//             $(this).remove(); // Removes the element from the page entirely
+//         });
+//     }, 3000); 
+// });
+
 
 
