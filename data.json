@@ -1,0 +1,1889 @@
+[
+{
+  "model": "sessions.session",
+  "pk": "1ulkywf4yfb1j1plqjud7g80hq70eegb",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgBYpL956BDDODVA0kpV0Z765NutDtf-_9l4iwrSVunZc4kzgLLU6_WwJ8cN0B3aHemsRW12VOclfkQbu8NuLn5XD_Dgr08q1NCuiSRgBjjAZi9JzRZAYzOVBJDdrCNPDoHQVLlkCBthQyWp19GsX7Aw0vONY:1uy9lz:CGECCjuRtVkx7liua5Rdq83b1V7bp1GNX_86BMGD2dM",
+    "expire_date": "2025-09-29T14:01:39.981Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2tr77ppya0p4yj7essx4aeh28h5mb7ne",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgUMCle89AhplBqoYmpV0Z765NutDtf-_9l0iwrTVtnZc0kTgL7cTpd8yAD247oTu02yxxbusyZbkr8qBdXmfi5-Vw_w4q9Pqto0HQwC5Y49B7JBqCHWPUOpMBw4MqyKgAA0Zl0SsunhyF0RTvXAHx_gAUSTic:1v0HZf:MjzU1uv2-F2wnTE_tY2LiFnPe_C9RJzkK8WRTVgMYbs",
+    "expire_date": "2025-10-05T10:45:43.247Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3u1ia7ujl1x79w1ufce7fa67alomv2gn",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgBYpL956BDDODVA0kpV0Z765NutDtf-_9l4iwrSVunZc4kzgLLU6_WwJ8cN0B3aHemsRW12VOclfkQbu8NuLn5XD_Dgr08q1NCuiSRgBjjAZi9JzRZAYzOVBJDdrCNPDoHQVLlkCBthQyWp19GsX7Aw0vONY:1v3DS5:kFFhpGmKS3SkSYEsTTipCXUKydrMW73HI2E57sYHdOo",
+    "expire_date": "2025-10-13T12:58:01.592Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "47zflt93acd3sfwkvpetpnpz3ezeown5",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSFAebVL934DucDFohZMoSvjv2uTbro9M3M-xDVsLdficsnd9bxg67C8HZm4UaPkbBCGMmWs1PZCHGx9dlvD1eVIJsLJafMQnlh2EB9Q7pWGWvqaPd0VetBGbzXi63q4p4MZ2vyvhR-D9jwACCE4RAwGUxAJQVgNzLOBK7ADSqPjqKKKwICrOKageDJeku8PMftHMw:1v4Izv:ZgWVb1LjPJoL8nRscJPZxttAQcc8YC7TRvyM40OEncE",
+    "expire_date": "2025-10-16T13:05:27.098Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "574sw7ugin16vxm4gcu0o6csxfh5p7ey",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgBYpL956BDDODVA0kpV0Z765NutDtf-_9l4iwrSVunZc4kzgLLU6_WwJ8cN0B3aHemsRW12VOclfkQbu8NuLn5XD_Dgr08q1NCuiSRgBjjAZi9JzRZAYzOVBJDdrCNPDoHQVLlkCBthQyWp19GsX7Aw0vONY:1v3ou4:nRdl9W5U1a5SCvVUmVCJ3yBuFJ74RHFxXdpsD5Io7_4",
+    "expire_date": "2025-10-15T04:57:24.601Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5f4agv4i9f31aguolghoe1m0oigsr4fw",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgFDIu3XsGMjMMUjU0Ke3KeHdt0oVu_3vvv1TCba1p67KkKauzsur0uxHyQ9oO8h3bbdY8t3WZSO-KPmjX1znL83K4fwcVe_3WxhsfHHhx3joLGEKhmAEFRGKkcaDIjmJBCQiD8cAjGykSKBfLjtX7A9H-OGU:1usMET:gKr314MXcFQMP8lAnQsRD2nYTOULk33VTbRc6_j_u4Y",
+    "expire_date": "2025-09-13T14:07:05.805Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7xcis99f8t1wyvckwht1wojnrf6ldi3a",
+  "fields": {
+    "session_data": "e30:1uuklh:U9YZPMdIsRpFYEGUwS2yCbTeJTwsJW2GpkePtoR-BOo",
+    "expire_date": "2025-09-20T04:43:17.648Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7ye5jjha6513zx6nvaiuw8a4wpf8ybih",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAGZgq6dN8zkBlAWzU0Ke3KeHfbpAvdvvf-f6vI6zLEtZU5jlldFJA6_ULh9Cx1N_nB9T7pNNVlHkXviT5s0_2Uy-t6tH8HA7dhW0vniymAnYABQpLszuyYTA6EPmEhT9aavLHEGG7ohDrnBAksIAT1-QLuRDb2:1v4BWz:Hsfowymv2-p89HlzvaZe45hTvXwGrfKGb30_EDguWSo",
+    "expire_date": "2025-10-16T05:07:05.924Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9nwvg5bw809d0w7jqtpl5azztoy8hwlk",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSFAeZQu3fsN5AIXi1owha6M_65Nuun2zMz5ENewtVyLyyV31_OCrcPydmTiRlsp1MgGagcmubgQB1uf3dZwdTmSiXBy2jyEJ5YdxAeUe6Whlr5mT3eFHrTRW434uh7u6WCGNv9r4W3QngcAIQSHiMFgCiIhiFED82zgCsYBpdHRqqgiMOAq2hQUT8ZL8v0B-sxG9g:1vkKTr:2GuDOzKUJX1-LiP57wcVBFmaUBpg1VX_62pU98P0-SM",
+    "expire_date": "2026-02-09T11:10:03.944Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cz8is1q61ngqc2gd84k89jauclsfryhv",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgBYpL956BDDODVA0kpV0Z765NutDtf-_9l4iwrSVunZc4kzgLLU6_WwJ8cN0B3aHemsRW12VOclfkQbu8NuLn5XD_Dgr08q1NCuiSRgBjjAZi9JzRZAYzOVBJDdrCNPDoHQVLlkCBthQyWp19GsX7Aw0vONY:1uyUQI:ccgk89bweKtvof3XAUP0hQsaqh8RwS0hMl0nj7wXxQs",
+    "expire_date": "2025-09-30T12:04:38.145Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dj86fba49og95v8meoc6pv3t26qpu36s",
+  "fields": {
+    "session_data": "eyJfc2Vzc2lvbl9pbml0X3RpbWVzdGFtcF8iOjE3NjY4MTM3ODguNjIzMTk1NH0:1vZMya:mtjCIl5t0Rk5ECjJ2QJGfVQwHG-WLSgVBYxcol_3pcQ",
+    "expire_date": "2026-01-10T05:36:28.629Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "eed60v2hkw9d9eiy4axvej9lwonfvquv",
+  "fields": {
+    "session_data": "eyJfc2Vzc2lvbl9pbml0X3RpbWVzdGFtcF8iOjE3NzQ1MzM2OTQuNDY4NzUwNX0:1w5lHC:a0MFfrqQ8F7nqzDkJM5b2UEssyakjLrVmCwqfRyujiA",
+    "expire_date": "2026-04-09T14:01:34.497Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gvqzgvi999k1lui6wt0apzn6kmfi6ew9",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgBYpL956BDDODVA0kpV0Z765NutDtf-_9l4iwrSVunZc4kzgLLU6_WwJ8cN0B3aHemsRW12VOclfkQbu8NuLn5XD_Dgr08q1NCuiSRgBjjAZi9JzRZAYzOVBJDdrCNPDoHQVLlkCBthQyWp19GsX7Aw0vONY:1v3uwF:3fstzHUWv0Vha517GPUApxvK2P_3flift6vthOwq0xw",
+    "expire_date": "2025-10-15T11:24:03.010Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "iagqhdaznfa6ote4apvuonlciwbremvh",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgBYpL956BDDODVA0kpV0Z765NutDtf-_9l4iwrSVunZc4kzgLLU6_WwJ8cN0B3aHemsRW12VOclfkQbu8NuLn5XD_Dgr08q1NCuiSRgBjjAZi9JzRZAYzOVBJDdrCNPDoHQVLlkCBthQyWp19GsX7Aw0vONY:1v0HYM:W_wrznfCBhlvkQ3VNF-_uwJqZsWlgTQiTX26OYmRooI",
+    "expire_date": "2025-10-05T10:44:22.848Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "m4nhhc54z32to3zuxqg19pr96ngqp07b",
+  "fields": {
+    "session_data": "eyJfc2Vzc2lvbl9pbml0X3RpbWVzdGFtcF8iOjE3Njk0MjU5NTYuOTIwNDcyOX0:1vkKWK:f1bqpCO649GKSaT7nOqRdxXk4H5XtYW-LUq73Up4kUo",
+    "expire_date": "2026-02-09T11:12:36.931Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "t4w73qppo7zy6odohv45dhdi6mlmgjn1",
+  "fields": {
+    "session_data": "eyJfc2Vzc2lvbl9pbml0X3RpbWVzdGFtcF8iOjE3NjYzMTU5MDEuOTI1NjQwM30:1vXHS9:CYB5GegOxvxQSGVcOotRMa-kzTnHMbGhouV1uw5tR1o",
+    "expire_date": "2026-01-04T11:18:21.932Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "thyf6irq7z5ndzeiq3ag6qqjusbdvdrb",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQBe9CHSG-BlymzxnQ4l1i8sGRwVWUu0eW3Lh9M_O-LDZqrSw1llp67OVNrcP7E9konQ1GChUs1zoo592FRdj6HLdGayzIRqY0O40JpifVneAD6n3h01L7WhLfFX7Qxm8L0ut6uKeDGdq818aDIOVszt4rQRYC2GQGkxRKqx0KIWlAI1AhZtBikj6FYcoiZ-00sd8fQDhGuw:1v4IzP:RPBksAcin4yTN4WJVZgmbFHnNBpFiBeBBBNzK7dNaGY",
+    "expire_date": "2025-10-16T13:04:55.381Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tzttm4zkkuwm1h8zmlx1jf5g5115vsk9",
+  "fields": {
+    "session_data": "eyJfc2Vzc2lvbl9pbml0X3RpbWVzdGFtcF8iOjE3NjY4MTQxMDMuNjkzOTk1fQ:1vZN3f:EqCZuYu17zSGYaOxt1C1dYADUIZKwfgPv7NcXFX_7A4",
+    "expire_date": "2026-01-10T05:41:43.796Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ulz7fjs74jsii122kdpdgapju9tfjbp4",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgFDIu3XsGMjMMUjU0Ke3KeHdt0oVu_3vvv1TCba1p67KkKauzsur0uxHyQ9oO8h3bbdY8t3WZSO-KPmjX1znL83K4fwcVe_3WxhsfHHhx3joLGEKhmAEFRGKkcaDIjmJBCQiD8cAjGykSKBfLjtX7A9H-OGU:1usOg6:JKTJFpKpEhbjjM39vOnMxaBDQ2OZR1Py3-za5cPjb5Y",
+    "expire_date": "2025-09-13T16:43:46.043Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "w0urofee7yhx94tfytk7own6p04yr2u5",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQBf-FsyGwLdD26N1vIAssFrVgCj0Z_12b9NLrm5n3YbZSralkm3JqtqWFasPlbdkkjdaD7FQPfAQDAtSFWdzabLdKq02BTUyy0-bQPynvIDww3wv3Jbc1Ob4r_KCV30qg1_VwTwcz1vlfgxu9dtIjAoDEQN5Q9BAJYdAonOikwqGj3ugwqqACCpQqjNErGY3r2fcHLYhHLA:1vZMuc:ULIETnyJaULh6Qbn7Nd5yg592g-n-9PErJ6JyEcl_NU",
+    "expire_date": "2026-01-10T05:32:22.980Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "x2th2f4x9by2x68vqud442srghbz1zfr",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgBYpL956BDDODVA0kpV0Z765NutDtf-_9l4iwrSVunZc4kzgLLU6_WwJ8cN0B3aHemsRW12VOclfkQbu8NuLn5XD_Dgr08q1NCuiSRgBjjAZi9JzRZAYzOVBJDdrCNPDoHQVLlkCBthQyWp19GsX7Aw0vONY:1v4BsK:fOxIsFFgICNmMNLmXb8LmtgbzV9Gyqx4IV8YXgW6fkQ",
+    "expire_date": "2025-10-16T05:29:08.715Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xqa6g0wifvkgqb9hhj4qi657ikzq9h7c",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQBe9CHSHwLj-X6XMGBGYdkw-ODK6i3D225MbtzLz3Zb5SrXkuPpfcfMtvqi28P5710iiHwioQHLS2KPSF-bC2ya-VFp8T65m07ARjGJ5UdpMeodxnPsylLTnyPeGHrfw2J3pdj_Z0MIU6bWscJAplkEhqMOAcIDgTnRyD6yRFY0egDkhSIqW7uFEE7VwSxqCViv3-ELNFMA:1v4IWw:PbUkkjr1I3c8zwLLASU-7aZSXSYQj4yppR959bZ3CL8",
+    "expire_date": "2025-10-16T12:35:30.378Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yik13vcnlzko3ij8tqr3khsj4xc6ghos",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAGZgq6dN8zkBlAWzU0Ke3KeHfbpAvdvvf-f6vI6zLEtZU5jlldFJA6_ULh9Cx1N_nB9T7pNNVlHkXviT5s0_2Uy-t6tH8HA7dhW0vniymAnYABQpLszuyYTA6EPmEhT9aavLHEGG7ohDrnBAksIAT1-QLuRDb2:1v3wGL:BjS2thj34jZz8KrMlhewMqGnCqfFgEqrpbscpOD4Qpk",
+    "expire_date": "2025-10-15T12:48:53.495Z"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 2,
+  "fields": {
+    "category_name": "shoes",
+    "slug": "shoes",
+    "description": "This is shoe",
+    "cat_image": "photos/categories/Pasted_image_2.png"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 3,
+  "fields": {
+    "category_name": "jeans",
+    "slug": "jeans",
+    "description": "This is jeans",
+    "cat_image": "photos/categories/Pasted_image_3.png"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 7,
+  "fields": {
+    "category_name": "T-shirts",
+    "slug": "t-shirts",
+    "description": "Printed Polo richTshirts | Half Sleeves | Plain-Regular Fit (Available in",
+    "cat_image": "photos/categories/Pasted_image_AbCSI1w.png"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 8,
+  "fields": {
+    "category_name": "Shirt",
+    "slug": "shirt",
+    "description": "This is shirt Description",
+    "cat_image": ""
+  }
+},
+{
+  "model": "category.category",
+  "pk": 9,
+  "fields": {
+    "category_name": "Kurta",
+    "slug": "kurta",
+    "description": "This is Kurta Desctiption",
+    "cat_image": ""
+  }
+},
+{
+  "model": "accounts.account",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$er87sKAgZmKoivXzmCYsNb$YDKlC1iSyhV7kSNemskC42zXpybX5JXQMGFbD/M7MPE=",
+    "first_name": "root",
+    "last_name": "root",
+    "email": "root@gmail.com",
+    "username": "root",
+    "phone_number": "",
+    "date_joined": "2025-08-30T14:06:26.858Z",
+    "last_login": "2026-01-26T10:14:52.472Z",
+    "is_admin": true,
+    "is_active": true,
+    "is_staff": true,
+    "is_superadmin": true
+  }
+},
+{
+  "model": "accounts.account",
+  "pk": 15,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$waWLNPOgqiVwcqx4wuglyK$IB/nYhOCK7z/vg1wgVZNMiyEl7nfwfUDcnyL9TK4XQg=",
+    "first_name": "param t",
+    "last_name": "gupta t",
+    "email": "Param@123gmail.com",
+    "username": "Param",
+    "phone_number": "1234549999",
+    "date_joined": "2025-09-15T13:49:17.436Z",
+    "last_login": "2025-12-21T11:16:41.746Z",
+    "is_admin": false,
+    "is_active": true,
+    "is_staff": false,
+    "is_superadmin": false
+  }
+},
+{
+  "model": "accounts.account",
+  "pk": 27,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$WW2gle8ptDRldYger7fyay$EFUUZa+GVSTbpJl0v5KSlLOlGkQefXlW4i3uY2X2UIc=",
+    "first_name": "Captain",
+    "last_name": "America",
+    "email": "whatsup87978738@gmail.com",
+    "username": "whatsup87978738",
+    "phone_number": "1111111111",
+    "date_joined": "2025-12-27T05:36:24.970Z",
+    "last_login": "2025-12-27T05:41:11.060Z",
+    "is_admin": false,
+    "is_active": true,
+    "is_staff": false,
+    "is_superadmin": false
+  }
+},
+{
+  "model": "accounts.userprofile",
+  "pk": 1,
+  "fields": {
+    "user": 15,
+    "address_line_1": "qwet",
+    "address_line_2": "asd t",
+    "profile_picture": "userprofile/c67bdb88d851756626ed0e31ebeedffa.jpg",
+    "city": "city t",
+    "state": "state",
+    "country": "country"
+  }
+},
+{
+  "model": "accounts.userprofile",
+  "pk": 12,
+  "fields": {
+    "user": 27,
+    "address_line_1": "",
+    "address_line_2": "",
+    "profile_picture": "userprofile/4c7b3f9a2f8445f0ab418ab7114c2b02_URjsEzx.jpeg",
+    "city": "",
+    "state": "",
+    "country": ""
+  }
+},
+{
+  "model": "stores.product",
+  "pk": 4,
+  "fields": {
+    "product_name": "Garima Knitwear tshirt",
+    "slug": "garima-knitwear-tshirt",
+    "description": "Printed Polo richTshirts | Half Sleeves | Plain-Regular Fit \r\nAbout this item\r\nmens shirt\r\nbest wear\r\ncomfort for all season\r\ncoller neck printed t- shirt",
+    "price": 499,
+    "images": "photos/products/Pasted_image.png",
+    "stock": 496,
+    "is_available": true,
+    "category": 7,
+    "created_date": "2025-12-21T11:44:50.473Z",
+    "modified_date": "2025-12-27T05:39:07.312Z"
+  }
+},
+{
+  "model": "stores.product",
+  "pk": 6,
+  "fields": {
+    "product_name": "Leriya Fashion Men's Half Sleeve tshirt",
+    "slug": "leriya-fashion-mens-half-sleeve-polyester-lycra-regular-fit-casual-plain-t-shirt-stylish-comfortable",
+    "description": "Stylish Design: Perfect for office or formal events, offering a sharp and professional look Men formal shirt\r\nPremium Quality: our half sleeve shirt for men is made from high-quality breathable textured fabric materials for lasting durability palin shirt for men stylish.\r\nPerfect Fit: trendy design to keep you looking fashionable, mens casual shirt yet comfortable for daily wear,office wear,party wear.\r\nEnhance Look : enhance your look by wearing this short kurta shirt for men",
+    "price": 499,
+    "images": "photos/products/Pasted_image_q9TXkbM.png",
+    "stock": 498,
+    "is_available": true,
+    "category": 7,
+    "created_date": "2025-12-21T12:07:10.843Z",
+    "modified_date": "2025-12-21T13:26:28.902Z"
+  }
+},
+{
+  "model": "stores.product",
+  "pk": 7,
+  "fields": {
+    "product_name": "NOBERO Men's Cotton Regular Fit tshirt",
+    "slug": "nobero-mens-cotton-regular-fit-tshirt",
+    "description": "Product details\r\nMaterial composition100% Cotton\r\nFit typeRegular Fit\r\nSleeve typeShort Sleeve\r\nCollar styleCollarless\r\nLengthStandard Length\r\nNeck styleCrew Neck\r\nCountry of OriginIndia",
+    "price": 499,
+    "images": "photos/products/Pasted_image_CLC1pkn.png",
+    "stock": 500,
+    "is_available": true,
+    "category": 7,
+    "created_date": "2025-12-21T12:18:18.224Z",
+    "modified_date": "2025-12-21T12:19:12.614Z"
+  }
+},
+{
+  "model": "stores.product",
+  "pk": 8,
+  "fields": {
+    "product_name": "Men Dryfit Lycra Fullsleeve Regular Fit T-Shirt-P85",
+    "slug": "men-dryfit-lycra-fullsleeve-regular-fit-t-shirt-p85",
+    "description": "About this item\r\nBreathable Fabric\r\nFull Sleeves\r\nReflector Logo on Chest\r\nSuper Comfort",
+    "price": 299,
+    "images": "photos/products/Pasted_image_2c6vhe4.png",
+    "stock": 500,
+    "is_available": true,
+    "category": 7,
+    "created_date": "2025-12-21T12:28:10.327Z",
+    "modified_date": "2025-12-21T12:28:10.327Z"
+  }
+},
+{
+  "model": "stores.product",
+  "pk": 9,
+  "fields": {
+    "product_name": "London Hills Men's Cotton Regular Fit Printed Round Neck Full Sleeve T-Shirt",
+    "slug": "london-hills-mens-cotton-regular-fit-printed-round-neck-full-sleeve-t-shirt",
+    "description": "Sleeve Type: Full Sleeves\r\nPattern Type: Solid; Collar Style: Round Collar; Sleeve Type: Long Sleeve",
+    "price": 349,
+    "images": "photos/products/Pasted_image_0Qw9N8j.png",
+    "stock": 500,
+    "is_available": true,
+    "category": 7,
+    "created_date": "2025-12-21T12:35:55.177Z",
+    "modified_date": "2025-12-21T12:35:55.177Z"
+  }
+},
+{
+  "model": "stores.product",
+  "pk": 10,
+  "fields": {
+    "product_name": "Lymio Men T-Shirt || Cotton Casual T Shirt for Men (T-52-53)",
+    "slug": "lymio-men-t-shirt-cotton-casual-t-shirt-for-men-t-52-53",
+    "description": "Men T-Shirt || Regular Fit T-Shirt for Men || T Shirt For Men || T-Shirt\r\nSleeve Length: Long Sleeve\r\nColor Disclaimer: Product color might slightly vary due to photographic lighting sources or your monitor settings\r\nFit type-Regular Fit\r\nFit type-Regular Fit",
+    "price": 399,
+    "images": "photos/products/Pasted_image_uer0EfA.png",
+    "stock": 499,
+    "is_available": true,
+    "category": 7,
+    "created_date": "2025-12-21T12:43:57.431Z",
+    "modified_date": "2025-12-21T13:33:30.157Z"
+  }
+},
+{
+  "model": "stores.product",
+  "pk": 11,
+  "fields": {
+    "product_name": "Stylish Latest Formal Shirt for Men",
+    "slug": "stylish-latest-formal-shirt-for-men",
+    "description": "U TURN Men's Casual Printed Striped Stylish Latest Formal Shirt for Men\r\n\r\nCare Instructions: Hand Wash or Machine Wash only\r\nPremium Shirt, extremely soft finish and rich look\r\nStylish Full Sleeves Printed Stiped Casual/Formal Shirt\r\nshirt for men || casual shirt for men || men stylish shirt || men Printed Shirt\r\nStyle - Enhance your look by wearing this Casual Stylish Men's shirt, Team it with a pair of tapered denims Or Solid Chinos and Loafers for a fun Smart Casual look",
+    "price": 378,
+    "images": "photos/products/Pasted_image_SEdwCtB.png",
+    "stock": 500,
+    "is_available": true,
+    "category": 8,
+    "created_date": "2026-01-26T10:32:26.968Z",
+    "modified_date": "2026-01-26T10:32:26.968Z"
+  }
+},
+{
+  "model": "stores.product",
+  "pk": 12,
+  "fields": {
+    "product_name": "Men – T-Shirt & Shorts Nightwear Set",
+    "slug": "men-t-shirt-shorts-nightwear-set",
+    "description": "Stylish & Comfortable Co-Ord Set : This mens Rayon shirt and shorts combo offers a perfect blend of style and comfort wear, its ideal for lounging, sleeping, or casual outings\r\nSoft & Breathable Fabric : This nightwear set made from high quality Rayon material and its lightweight, stretchable and ensures superior comfort all day and night\r\nRelaxed Fit & Smart Design : Features a round neck SHIRT with short sleeves and above knee length shorts with a regular fit for a relaxed and effortless look",
+    "price": 599,
+    "images": "photos/products/Pasted_image_CpSWV3t.png",
+    "stock": 500,
+    "is_available": true,
+    "category": 8,
+    "created_date": "2026-01-26T10:36:45.046Z",
+    "modified_date": "2026-01-26T10:36:45.046Z"
+  }
+},
+{
+  "model": "stores.product",
+  "pk": 13,
+  "fields": {
+    "product_name": "Mens Casual Button Down Shirt",
+    "slug": "mens-casual-button-down-shirt",
+    "description": "Mens Casual Button Down Shirt | Cotton Luster Long Sleeves Shirts | Mandarin Collared Shirts\r\nPremium Fabric：Quality fabrics and modern fits are key when it comes to refined essentials. Our non-iron shirts are exceptionally easy to care for: simply wash, hang, and watch all those creases drop away.",
+    "price": 495,
+    "images": "photos/products/Pasted_image_fquOtZq.png",
+    "stock": 500,
+    "is_available": true,
+    "category": 8,
+    "created_date": "2026-01-26T10:42:05.554Z",
+    "modified_date": "2026-01-26T10:42:05.554Z"
+  }
+},
+{
+  "model": "stores.product",
+  "pk": 14,
+  "fields": {
+    "product_name": "Glowic Men's Plain Casual Shirt",
+    "slug": "glowic-mens-plain-casual-shirt",
+    "description": "Glowic Men's Plain Casual Shirt | Cotton Soft & Breathable Fabric | Full Sleeve Comfort Fit Stylish Solid Shirts for Office\r\nMaterial composition100% Cotton\r\nFit typeRegular Fit\r\nSleeve typeButtoned cuffs\r\nCollar styleCutaway\r\nLengthStandard Length\r\nStyleMinimalist\r\nCountry of OriginIndia",
+    "price": 549,
+    "images": "photos/products/Pasted_image_1IOo2CT.png",
+    "stock": 500,
+    "is_available": true,
+    "category": 8,
+    "created_date": "2026-01-26T10:46:05.519Z",
+    "modified_date": "2026-01-26T10:46:05.519Z"
+  }
+},
+{
+  "model": "stores.product",
+  "pk": 15,
+  "fields": {
+    "product_name": "Shirt for Men Full Sleeve",
+    "slug": "indoprimo-mens-stylish-solid-satin-casual-shirt-for-men-full-sleeve",
+    "description": "IndoPrimo Men's Stylish Solid Satin Casual Shirt for Men Full Sleeve\r\nMaterial compositionSoft Satin\r\nFit typeClassic Fit\r\nSleeve typeLong Sleeve\r\nCollar styleSpread Collar\r\nNeck styleCollared Neck\r\nStyleClassic\r\nCountry of OriginIndia",
+    "price": 499,
+    "images": "photos/products/Pasted_image_QrCX3Qy.png",
+    "stock": 500,
+    "is_available": true,
+    "category": 8,
+    "created_date": "2026-01-26T10:50:21.334Z",
+    "modified_date": "2026-01-26T10:52:17.194Z"
+  }
+},
+{
+  "model": "stores.product",
+  "pk": 16,
+  "fields": {
+    "product_name": "Men's 100% Cotton Solid Long Length Casual Kurta",
+    "slug": "mens-100-cotton-solid-long-length-casual-kurta",
+    "description": "Symbol Men's 100% Cotton Solid Long Length Casual Kurta - Regular Fit (Available in Plus Sizes)\r\nMaterial composition100% Cotton\r\nSleeve typeFull Sleeve\r\nLengthCalf Length\r\nNeck styleMandarin Neck\r\nPatternSolid\r\nStyleRegular\r\nCountry of OriginIndia",
+    "price": 849,
+    "images": "photos/products/Pasted_image_tLkko2g.png",
+    "stock": 500,
+    "is_available": true,
+    "category": 9,
+    "created_date": "2026-01-26T11:03:47.816Z",
+    "modified_date": "2026-01-26T11:03:47.817Z"
+  }
+},
+{
+  "model": "stores.product",
+  "pk": 17,
+  "fields": {
+    "product_name": "Festive Embellished Long Kurta",
+    "slug": "festive-embellished-long-kurta",
+    "description": "Symbol Men's Cotton Solid Festive Embellished Long Kurta (Regular Fit)\r\nMaterial composition100% Cotton\r\nSleeve typeLong sleeve\r\nLengthKnee Length\r\nNeck styleMandarin Neck\r\nPatternSolid\r\nStyleRegular\r\nCountry of OriginIndia",
+    "price": 999,
+    "images": "photos/products/Pasted_image_78vrtui.png",
+    "stock": 500,
+    "is_available": true,
+    "category": 9,
+    "created_date": "2026-01-26T11:07:46.717Z",
+    "modified_date": "2026-01-26T11:07:46.717Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 11,
+  "fields": {
+    "product": 4,
+    "variation_category": "size",
+    "variation_value": "small",
+    "is_active": true,
+    "created_date": "2025-12-21T11:49:20.255Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 12,
+  "fields": {
+    "product": 4,
+    "variation_category": "size",
+    "variation_value": "large",
+    "is_active": true,
+    "created_date": "2025-12-21T11:49:42.471Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 14,
+  "fields": {
+    "product": 4,
+    "variation_category": "color",
+    "variation_value": "image color",
+    "is_active": true,
+    "created_date": "2025-12-21T11:51:14.872Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 15,
+  "fields": {
+    "product": 6,
+    "variation_category": "color",
+    "variation_value": "red and black",
+    "is_active": true,
+    "created_date": "2025-12-21T12:10:08.251Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 16,
+  "fields": {
+    "product": 6,
+    "variation_category": "color",
+    "variation_value": "red and white",
+    "is_active": true,
+    "created_date": "2025-12-21T12:10:25.540Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 17,
+  "fields": {
+    "product": 6,
+    "variation_category": "color",
+    "variation_value": "black and white",
+    "is_active": true,
+    "created_date": "2025-12-21T12:10:42.214Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 18,
+  "fields": {
+    "product": 6,
+    "variation_category": "size",
+    "variation_value": "small",
+    "is_active": true,
+    "created_date": "2025-12-21T12:10:56.619Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 19,
+  "fields": {
+    "product": 6,
+    "variation_category": "size",
+    "variation_value": "medium",
+    "is_active": true,
+    "created_date": "2025-12-21T12:11:12.714Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 20,
+  "fields": {
+    "product": 6,
+    "variation_category": "size",
+    "variation_value": "large",
+    "is_active": true,
+    "created_date": "2025-12-21T12:11:23.081Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 21,
+  "fields": {
+    "product": 7,
+    "variation_category": "size",
+    "variation_value": "small",
+    "is_active": true,
+    "created_date": "2025-12-21T12:21:09.641Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 22,
+  "fields": {
+    "product": 7,
+    "variation_category": "size",
+    "variation_value": "medium",
+    "is_active": true,
+    "created_date": "2025-12-21T12:21:20.849Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 23,
+  "fields": {
+    "product": 7,
+    "variation_category": "size",
+    "variation_value": "large",
+    "is_active": true,
+    "created_date": "2025-12-21T12:21:35.391Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 24,
+  "fields": {
+    "product": 7,
+    "variation_category": "color",
+    "variation_value": "Brown",
+    "is_active": true,
+    "created_date": "2025-12-21T12:21:56.863Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 25,
+  "fields": {
+    "product": 7,
+    "variation_category": "color",
+    "variation_value": "red",
+    "is_active": true,
+    "created_date": "2025-12-21T12:22:45.912Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 26,
+  "fields": {
+    "product": 7,
+    "variation_category": "color",
+    "variation_value": "white",
+    "is_active": true,
+    "created_date": "2025-12-21T12:23:03.546Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 27,
+  "fields": {
+    "product": 7,
+    "variation_category": "color",
+    "variation_value": "black",
+    "is_active": true,
+    "created_date": "2025-12-21T12:23:20.663Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 28,
+  "fields": {
+    "product": 8,
+    "variation_category": "size",
+    "variation_value": "small",
+    "is_active": true,
+    "created_date": "2025-12-21T12:29:13.749Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 29,
+  "fields": {
+    "product": 8,
+    "variation_category": "size",
+    "variation_value": "medium",
+    "is_active": true,
+    "created_date": "2025-12-21T12:29:37.368Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 30,
+  "fields": {
+    "product": 8,
+    "variation_category": "size",
+    "variation_value": "large",
+    "is_active": true,
+    "created_date": "2025-12-21T12:30:01.907Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 31,
+  "fields": {
+    "product": 8,
+    "variation_category": "color",
+    "variation_value": "image color",
+    "is_active": true,
+    "created_date": "2025-12-21T12:30:30.905Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 32,
+  "fields": {
+    "product": 9,
+    "variation_category": "color",
+    "variation_value": "red",
+    "is_active": true,
+    "created_date": "2025-12-21T12:36:17.492Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 33,
+  "fields": {
+    "product": 9,
+    "variation_category": "color",
+    "variation_value": "black",
+    "is_active": true,
+    "created_date": "2025-12-21T12:36:34.136Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 34,
+  "fields": {
+    "product": 9,
+    "variation_category": "color",
+    "variation_value": "blue",
+    "is_active": true,
+    "created_date": "2025-12-21T12:36:48.420Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 35,
+  "fields": {
+    "product": 9,
+    "variation_category": "color",
+    "variation_value": "light green",
+    "is_active": true,
+    "created_date": "2025-12-21T12:37:07.030Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 36,
+  "fields": {
+    "product": 9,
+    "variation_category": "size",
+    "variation_value": "small",
+    "is_active": true,
+    "created_date": "2025-12-21T12:38:09.003Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 37,
+  "fields": {
+    "product": 9,
+    "variation_category": "size",
+    "variation_value": "medium",
+    "is_active": true,
+    "created_date": "2025-12-21T12:38:35.744Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 38,
+  "fields": {
+    "product": 9,
+    "variation_category": "size",
+    "variation_value": "large",
+    "is_active": true,
+    "created_date": "2025-12-21T12:38:55.837Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 39,
+  "fields": {
+    "product": 10,
+    "variation_category": "color",
+    "variation_value": "image color",
+    "is_active": true,
+    "created_date": "2025-12-21T12:44:21.209Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 40,
+  "fields": {
+    "product": 10,
+    "variation_category": "size",
+    "variation_value": "small",
+    "is_active": true,
+    "created_date": "2025-12-21T12:44:41.245Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 41,
+  "fields": {
+    "product": 10,
+    "variation_category": "size",
+    "variation_value": "medium",
+    "is_active": true,
+    "created_date": "2025-12-21T12:44:53.921Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 42,
+  "fields": {
+    "product": 10,
+    "variation_category": "size",
+    "variation_value": "large",
+    "is_active": true,
+    "created_date": "2025-12-21T12:45:08.714Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 43,
+  "fields": {
+    "product": 11,
+    "variation_category": "color",
+    "variation_value": "same as image",
+    "is_active": true,
+    "created_date": "2026-01-26T10:54:48.794Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 44,
+  "fields": {
+    "product": 11,
+    "variation_category": "size",
+    "variation_value": "small",
+    "is_active": true,
+    "created_date": "2026-01-26T10:55:03.443Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 45,
+  "fields": {
+    "product": 11,
+    "variation_category": "size",
+    "variation_value": "medium",
+    "is_active": true,
+    "created_date": "2026-01-26T10:55:25.728Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 46,
+  "fields": {
+    "product": 11,
+    "variation_category": "size",
+    "variation_value": "Large",
+    "is_active": true,
+    "created_date": "2026-01-26T10:55:39.201Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 47,
+  "fields": {
+    "product": 12,
+    "variation_category": "color",
+    "variation_value": "image color",
+    "is_active": true,
+    "created_date": "2026-01-26T10:56:06.644Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 48,
+  "fields": {
+    "product": 12,
+    "variation_category": "size",
+    "variation_value": "small",
+    "is_active": true,
+    "created_date": "2026-01-26T10:56:21.864Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 49,
+  "fields": {
+    "product": 12,
+    "variation_category": "size",
+    "variation_value": "medium",
+    "is_active": true,
+    "created_date": "2026-01-26T10:56:36.209Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 50,
+  "fields": {
+    "product": 12,
+    "variation_category": "size",
+    "variation_value": "Large",
+    "is_active": true,
+    "created_date": "2026-01-26T10:56:47.659Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 51,
+  "fields": {
+    "product": 13,
+    "variation_category": "color",
+    "variation_value": "image color",
+    "is_active": true,
+    "created_date": "2026-01-26T10:57:08.253Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 52,
+  "fields": {
+    "product": 13,
+    "variation_category": "size",
+    "variation_value": "small",
+    "is_active": true,
+    "created_date": "2026-01-26T10:57:23.294Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 53,
+  "fields": {
+    "product": 13,
+    "variation_category": "size",
+    "variation_value": "mudium",
+    "is_active": true,
+    "created_date": "2026-01-26T10:57:38.001Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 54,
+  "fields": {
+    "product": 13,
+    "variation_category": "size",
+    "variation_value": "large",
+    "is_active": true,
+    "created_date": "2026-01-26T10:57:48.651Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 55,
+  "fields": {
+    "product": 14,
+    "variation_category": "color",
+    "variation_value": "similar",
+    "is_active": true,
+    "created_date": "2026-01-26T10:58:25.782Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 56,
+  "fields": {
+    "product": 14,
+    "variation_category": "size",
+    "variation_value": "small",
+    "is_active": true,
+    "created_date": "2026-01-26T10:58:37.692Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 57,
+  "fields": {
+    "product": 14,
+    "variation_category": "size",
+    "variation_value": "medium",
+    "is_active": true,
+    "created_date": "2026-01-26T10:58:48.262Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 58,
+  "fields": {
+    "product": 14,
+    "variation_category": "size",
+    "variation_value": "large",
+    "is_active": true,
+    "created_date": "2026-01-26T10:58:58.728Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 59,
+  "fields": {
+    "product": 15,
+    "variation_category": "color",
+    "variation_value": "same",
+    "is_active": true,
+    "created_date": "2026-01-26T10:59:20.208Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 60,
+  "fields": {
+    "product": 15,
+    "variation_category": "size",
+    "variation_value": "small",
+    "is_active": true,
+    "created_date": "2026-01-26T10:59:32.010Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 61,
+  "fields": {
+    "product": 15,
+    "variation_category": "size",
+    "variation_value": "medium",
+    "is_active": true,
+    "created_date": "2026-01-26T10:59:48.585Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 62,
+  "fields": {
+    "product": 15,
+    "variation_category": "size",
+    "variation_value": "large",
+    "is_active": true,
+    "created_date": "2026-01-26T10:59:58.191Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 63,
+  "fields": {
+    "product": 17,
+    "variation_category": "color",
+    "variation_value": "black",
+    "is_active": true,
+    "created_date": "2026-01-26T11:08:09.924Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 64,
+  "fields": {
+    "product": 17,
+    "variation_category": "color",
+    "variation_value": "red",
+    "is_active": true,
+    "created_date": "2026-01-26T11:08:19.814Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 65,
+  "fields": {
+    "product": 17,
+    "variation_category": "color",
+    "variation_value": "green",
+    "is_active": true,
+    "created_date": "2026-01-26T11:08:34.301Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 66,
+  "fields": {
+    "product": 17,
+    "variation_category": "size",
+    "variation_value": "medium",
+    "is_active": true,
+    "created_date": "2026-01-26T11:08:56.251Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 67,
+  "fields": {
+    "product": 17,
+    "variation_category": "size",
+    "variation_value": "large",
+    "is_active": true,
+    "created_date": "2026-01-26T11:09:07.599Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 68,
+  "fields": {
+    "product": 16,
+    "variation_category": "color",
+    "variation_value": "white",
+    "is_active": true,
+    "created_date": "2026-01-26T11:09:21.627Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 69,
+  "fields": {
+    "product": 16,
+    "variation_category": "size",
+    "variation_value": "small",
+    "is_active": true,
+    "created_date": "2026-01-26T11:09:36.554Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 70,
+  "fields": {
+    "product": 16,
+    "variation_category": "size",
+    "variation_value": "medium",
+    "is_active": true,
+    "created_date": "2026-01-26T11:09:49.652Z"
+  }
+},
+{
+  "model": "stores.varition",
+  "pk": 71,
+  "fields": {
+    "product": 16,
+    "variation_category": "size",
+    "variation_value": "large",
+    "is_active": true,
+    "created_date": "2026-01-26T11:10:03.937Z"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 3,
+  "fields": {
+    "product": 4,
+    "image": "store/products/Pasted_image_2.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 4,
+  "fields": {
+    "product": 4,
+    "image": "store/products/Pasted_image_3.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 5,
+  "fields": {
+    "product": 4,
+    "image": "store/products/Pasted_image_4.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 11,
+  "fields": {
+    "product": 6,
+    "image": "store/products/Pasted_image_2_yv9ppqH.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 12,
+  "fields": {
+    "product": 6,
+    "image": "store/products/Pasted_image_3_SuL9oom.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 13,
+  "fields": {
+    "product": 6,
+    "image": "store/products/Pasted_image_4_JwUG3kf.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 14,
+  "fields": {
+    "product": 6,
+    "image": "store/products/Pasted_image_5.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 15,
+  "fields": {
+    "product": 6,
+    "image": "store/products/Pasted_image_1KeZnIb.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 16,
+  "fields": {
+    "product": 7,
+    "image": "store/products/Pasted_image_2_hti59ld.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 17,
+  "fields": {
+    "product": 7,
+    "image": "store/products/Pasted_image_3_Jjx2Y02.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 18,
+  "fields": {
+    "product": 7,
+    "image": "store/products/Pasted_image_4_wDA4cRE.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 19,
+  "fields": {
+    "product": 7,
+    "image": "store/products/Pasted_image_5_1dTkiEZ.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 20,
+  "fields": {
+    "product": 7,
+    "image": "store/products/Pasted_image_6_YW4j2uQ.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 21,
+  "fields": {
+    "product": 8,
+    "image": "store/products/Pasted_image_2_tFmrkEv.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 22,
+  "fields": {
+    "product": 8,
+    "image": "store/products/Pasted_image_3_WSC9qjY.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 23,
+  "fields": {
+    "product": 8,
+    "image": "store/products/Pasted_image_4_gIcSHOg.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 24,
+  "fields": {
+    "product": 8,
+    "image": "store/products/Pasted_image_5_nFJSbLa.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 25,
+  "fields": {
+    "product": 8,
+    "image": "store/products/Pasted_image_6_Nheh9iT.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 26,
+  "fields": {
+    "product": 8,
+    "image": "store/products/Pasted_image_7.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 27,
+  "fields": {
+    "product": 9,
+    "image": "store/products/Pasted_image_2_vtgxzhE.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 28,
+  "fields": {
+    "product": 9,
+    "image": "store/products/Pasted_image_3_mgobf3E.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 29,
+  "fields": {
+    "product": 9,
+    "image": "store/products/Pasted_image_4_rBQa0U3.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 30,
+  "fields": {
+    "product": 9,
+    "image": "store/products/Pasted_image_5_H07ax6H.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 31,
+  "fields": {
+    "product": 10,
+    "image": "store/products/Pasted_image_2_mpLxdjx.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 32,
+  "fields": {
+    "product": 10,
+    "image": "store/products/Pasted_image_3_tDqhHKi.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 33,
+  "fields": {
+    "product": 10,
+    "image": "store/products/Pasted_image_4_wTPDKJS.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 34,
+  "fields": {
+    "product": 11,
+    "image": "store/products/Pasted_image_2_7bKe7di.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 35,
+  "fields": {
+    "product": 11,
+    "image": "store/products/Pasted_image_3_kdSKTZv.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 36,
+  "fields": {
+    "product": 11,
+    "image": "store/products/Pasted_image_4_zbV6SX5.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 37,
+  "fields": {
+    "product": 11,
+    "image": "store/products/Pasted_image_5_TJevGbG.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 38,
+  "fields": {
+    "product": 12,
+    "image": "store/products/Pasted_image_2_1y9VqJp.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 39,
+  "fields": {
+    "product": 12,
+    "image": "store/products/Pasted_image_3_COXLnyM.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 40,
+  "fields": {
+    "product": 12,
+    "image": "store/products/Pasted_image_4_ssTpFhX.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 41,
+  "fields": {
+    "product": 12,
+    "image": "store/products/Pasted_image_5_W0lGXpU.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 42,
+  "fields": {
+    "product": 13,
+    "image": "store/products/Pasted_image_2_72Weq1o.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 43,
+  "fields": {
+    "product": 13,
+    "image": "store/products/Pasted_image_3_9BU7SLB.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 44,
+  "fields": {
+    "product": 13,
+    "image": "store/products/Pasted_image_4_WEH2ipb.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 45,
+  "fields": {
+    "product": 13,
+    "image": "store/products/Pasted_image_5_JYljnMK.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 46,
+  "fields": {
+    "product": 14,
+    "image": "store/products/Pasted_image_2_a0Io10o.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 47,
+  "fields": {
+    "product": 14,
+    "image": "store/products/Pasted_image_3_nqjbDFo.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 48,
+  "fields": {
+    "product": 14,
+    "image": "store/products/Pasted_image_4_u4E7LM4.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 49,
+  "fields": {
+    "product": 14,
+    "image": "store/products/Pasted_image_5_AWsGXYn.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 50,
+  "fields": {
+    "product": 14,
+    "image": "store/products/Pasted_image_6_jCR7SeJ.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 51,
+  "fields": {
+    "product": 15,
+    "image": "store/products/Pasted_image_2_n5I3XxW.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 52,
+  "fields": {
+    "product": 15,
+    "image": "store/products/Pasted_image_3_wmcabTJ.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 53,
+  "fields": {
+    "product": 15,
+    "image": "store/products/Pasted_image_4_MRAtTGM.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 54,
+  "fields": {
+    "product": 15,
+    "image": "store/products/Pasted_image_5_hPolSTT.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 55,
+  "fields": {
+    "product": 15,
+    "image": "store/products/Pasted_image_6_tkzlbNm.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 56,
+  "fields": {
+    "product": 16,
+    "image": "store/products/Pasted_image_2_gFLUFoL.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 57,
+  "fields": {
+    "product": 16,
+    "image": "store/products/Pasted_image_3_Fxst8dZ.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 58,
+  "fields": {
+    "product": 16,
+    "image": "store/products/Pasted_image_4_1qUpDAT.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 59,
+  "fields": {
+    "product": 16,
+    "image": "store/products/Pasted_image_5_jJJfsTs.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 60,
+  "fields": {
+    "product": 17,
+    "image": "store/products/Pasted_image_2_oKG3FEg.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 61,
+  "fields": {
+    "product": 17,
+    "image": "store/products/Pasted_image_3_B1TKOfm.png"
+  }
+},
+{
+  "model": "stores.productgallery",
+  "pk": 62,
+  "fields": {
+    "product": 17,
+    "image": "store/products/Pasted_image_4_f4Wi7pD.png"
+  }
+},
+{
+  "model": "carts.cart",
+  "pk": 27,
+  "fields": {
+    "cart_id": "qbb12p55eq7j7fbyw6ip2hjwltfsxlvi",
+    "date_added": "2025-12-21"
+  }
+},
+{
+  "model": "carts.cart",
+  "pk": 28,
+  "fields": {
+    "cart_id": "9206m8nyj83zxzl6myugf5evbfs98toh",
+    "date_added": "2025-12-21"
+  }
+},
+{
+  "model": "carts.cart",
+  "pk": 29,
+  "fields": {
+    "cart_id": "yg1l8q5q4whnsd7j844bdrxab5iv7hf6",
+    "date_added": "2025-12-27"
+  }
+},
+{
+  "model": "carts.cart",
+  "pk": 30,
+  "fields": {
+    "cart_id": "s3dxghny8tj7csu9l9ufhetif3qm1h7o",
+    "date_added": "2025-12-27"
+  }
+},
+{
+  "model": "carts.cart",
+  "pk": 31,
+  "fields": {
+    "cart_id": "tb7wrb5ioie4ctmbnjvx8nyzc8kr4bql",
+    "date_added": "2025-12-27"
+  }
+},
+{
+  "model": "orders.payment",
+  "pk": 18,
+  "fields": {
+    "user": 27,
+    "Payment_id": "75N14985YV207340U",
+    "Payment_method": "PayPal",
+    "amount_paid": "998.0",
+    "status": "COMPLETED",
+    "created_at": "2025-12-27T05:39:07.260Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 50,
+  "fields": {
+    "user": null,
+    "payment": null,
+    "order_number": "2025122150",
+    "first_name": "Param",
+    "last_name": "Gupta",
+    "phone": "898989898",
+    "email": "whatsup87978738@gmail.com",
+    "address_line_1": "ghazizbad",
+    "address_line_2": "K.I.E.T college",
+    "country": "India",
+    "state": "Uttar Pradesh",
+    "city": "Ghazizbad",
+    "order_note": "Param tsirt test",
+    "order_total": 1000.0,
+    "tax": 0.0,
+    "ip": "127.0.0.1",
+    "is_ordered": false,
+    "created_at": "2025-12-21T12:50:55.689Z",
+    "updated_at": "2025-12-21T12:50:55.689Z",
+    "status": "New"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 51,
+  "fields": {
+    "user": null,
+    "payment": null,
+    "order_number": "2025122151",
+    "first_name": "Param",
+    "last_name": "Gupta",
+    "phone": "989898989",
+    "email": "whatsup87978738@gmail.com",
+    "address_line_1": "ghazizbad",
+    "address_line_2": "K.I.E.T college",
+    "country": "India",
+    "state": "Uttar Pradesh",
+    "city": "Ghazizbad",
+    "order_note": "",
+    "order_total": 1.0,
+    "tax": 0.0,
+    "ip": "127.0.0.1",
+    "is_ordered": false,
+    "created_at": "2025-12-21T13:17:03.866Z",
+    "updated_at": "2025-12-21T13:17:03.866Z",
+    "status": "New"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 52,
+  "fields": {
+    "user": null,
+    "payment": null,
+    "order_number": "2025122152",
+    "first_name": "Param",
+    "last_name": "Gupta",
+    "phone": "989898989",
+    "email": "whatsup87978738@gmail.com",
+    "address_line_1": "ghazizbad",
+    "address_line_2": "K.I.E.T college",
+    "country": "India",
+    "state": "Uttar Pradesh",
+    "city": "Ghazizbad",
+    "order_note": "",
+    "order_total": 1.0,
+    "tax": 0.0,
+    "ip": "127.0.0.1",
+    "is_ordered": true,
+    "created_at": "2025-12-21T13:18:17.200Z",
+    "updated_at": "2025-12-21T13:18:17.200Z",
+    "status": "New"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 53,
+  "fields": {
+    "user": null,
+    "payment": null,
+    "order_number": "2025122153",
+    "first_name": "Param",
+    "last_name": "Gupta",
+    "phone": "989898989",
+    "email": "whatsup87978738@gmail.com",
+    "address_line_1": "ghazizbad",
+    "address_line_2": "K.I.E.T college",
+    "country": "India",
+    "state": "Uttar Pradesh",
+    "city": "Ghazizbad",
+    "order_note": "",
+    "order_total": 998.0,
+    "tax": 0.0,
+    "ip": "127.0.0.1",
+    "is_ordered": true,
+    "created_at": "2025-12-21T13:26:13.622Z",
+    "updated_at": "2025-12-21T13:26:13.622Z",
+    "status": "New"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 54,
+  "fields": {
+    "user": null,
+    "payment": null,
+    "order_number": "2025122154",
+    "first_name": "Param",
+    "last_name": "Gupta",
+    "phone": "989898989",
+    "email": "whatsup87978738@gmail.com",
+    "address_line_1": "ghazizbad",
+    "address_line_2": "K.I.E.T college",
+    "country": "India",
+    "state": "Uttar Pradesh",
+    "city": "Ghazizbad",
+    "order_note": "",
+    "order_total": 400.0,
+    "tax": 0.0,
+    "ip": "127.0.0.1",
+    "is_ordered": true,
+    "created_at": "2025-12-21T13:33:18.751Z",
+    "updated_at": "2025-12-21T13:33:18.751Z",
+    "status": "New"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 55,
+  "fields": {
+    "user": null,
+    "payment": null,
+    "order_number": "2025122755",
+    "first_name": "param",
+    "last_name": "Param",
+    "phone": "1234455555",
+    "email": "whatsup87978738@gmail.com",
+    "address_line_1": "ghazizbad",
+    "address_line_2": "K.I.E.T college",
+    "country": "India",
+    "state": "Muradnagar",
+    "city": "Ghazizbad",
+    "order_note": "test order",
+    "order_total": 698.0,
+    "tax": 0.0,
+    "ip": "127.0.0.1",
+    "is_ordered": false,
+    "created_at": "2025-12-27T05:19:07.966Z",
+    "updated_at": "2025-12-27T05:19:07.966Z",
+    "status": "New"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 56,
+  "fields": {
+    "user": 27,
+    "payment": 18,
+    "order_number": "2025122756",
+    "first_name": "Captain",
+    "last_name": "America",
+    "phone": "111111111",
+    "email": "whatsup87978738@gmail.com",
+    "address_line_1": "ghazizbad",
+    "address_line_2": "K.I.E.T college",
+    "country": "India",
+    "state": "Uttar Pradesh",
+    "city": "Ghazizbad",
+    "order_note": "test order",
+    "order_total": 998.0,
+    "tax": 0.0,
+    "ip": "127.0.0.1",
+    "is_ordered": true,
+    "created_at": "2025-12-27T05:38:05.358Z",
+    "updated_at": "2025-12-27T05:38:05.358Z",
+    "status": "New"
+  }
+},
+{
+  "model": "orders.orderproduct",
+  "pk": 15,
+  "fields": {
+    "order": 56,
+    "payment": 18,
+    "user": 27,
+    "product": 4,
+    "quantity": 2,
+    "product_price": 499.0,
+    "ordered": true,
+    "created_at": "2025-12-27T05:39:07.276Z",
+    "updated_at": "2025-12-27T05:39:07.276Z",
+    "varition": [
+      12,
+      14
+    ]
+  }
+},
+{
+  "model": "admin_honeypot.loginattempt",
+  "pk": 1,
+  "fields": {
+    "username": "root@gmail.com",
+    "ip_address": "127.0.0.1",
+    "session_key": "ehnovvz4apclv1gjwd9vo9odu1b2d7xm",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "timestamp": "2025-10-02T07:15:44.962Z",
+    "path": "/admin/login/?next=/admin/"
+  }
+}
+]
