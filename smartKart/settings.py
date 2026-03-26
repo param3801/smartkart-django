@@ -66,6 +66,7 @@ SESSION_TIMEOUT_REDIRECT = 'accounts/login'  # URL to redirect to after session 
 
 ROOT_URLCONF = 'smartKart.urls'
 
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -97,12 +98,16 @@ AUTH_USER_MODEL = 'accounts.Account'
 # }
 
 # MySQL database configuration
+USERNAME = config('DB_USERNAME')
+PASSWORD = config('DB_PASSWORD')
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'smart_kart_database',
-        'USER': 'root',
-        'PASSWORD': 'Param1234@',
+        'USER': USERNAME,
+        'PASSWORD': PASSWORD,
         'HOST': 'localhost',
         'PORT': '3306',
         'OPTIONS': {
